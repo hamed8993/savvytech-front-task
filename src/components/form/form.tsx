@@ -59,7 +59,6 @@ export function Form({ title, text }: FormPropsType): ReactElement {
           submitHandler();
         }}
       >
-        ط
         <Input
           label="Title"
           name="title"
