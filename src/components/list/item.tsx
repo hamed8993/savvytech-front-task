@@ -19,7 +19,7 @@ export function Item({ item }: ItemPropsType): ReactElement {
 
   return (
     <div className="flex flex-col sm:flex-row justify-between items-center p-4 bg-white border border-gray-100 rounded-xl shadow-sm hover:shadow-md hover:border-blue-100 transition-all duration-200 group">
-      <div className="flex flex-col">
+      <div className="flex flex-col items-start">
         <h3 className="text-base font-semibold text-gray-800 group-hover:text-blue-700 transition-colors duration-150">
           {item.title}
         </h3>

@@ -5,7 +5,7 @@ export function EmptyList(): ReactElement {
   return (
     <>
       <div className="min-h-[60vh] flex justify-center px-4">
-        <div className="text-center max-w-md mx-auto">
+        <div className="flex flex-col items-center text-center max-w-md mx-auto">
           <div className="mb-8">
             <div className="relative mx-auto w-64 h-48 sm:w-72 sm:h-56 md:w-80 md:h-64">
               <img
