@@ -12,7 +12,7 @@ import { Button } from "../button/button";
 
 export function ItemsList(): ReactElement {
   const { items, selectedItem, showModal, setShowModal } = useItems();
-  console.log("showModal>>>", showModal);
+
   return (
     <>
       {items && items.length > 0 && (
